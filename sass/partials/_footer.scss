@@ -1,0 +1,17 @@
+footer
+{
+    color: white;
+    font-family: $base-font-family;
+    margin-top: 1em;
+    justify-content: space-between;     
+}
+
+@media(min-width: $break-desktop){
+    
+    footer
+    {
+        margin-left: 2.5em;
+        margin-top: 1em;
+        align-self: flex-end;
+    } 
+}

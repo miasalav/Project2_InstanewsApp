@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Object Demo</title>
+<link href="build/css/style.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+</head>
+ 
+<body>
+
+    <header class="flex special-flex">
+        <object type="image/svg+xml" data="assets/images/nyt-logo.svg" class="logo">
+    </object>
+
+    <div class="selection-div">
+        <label>Choose a section:</label>
+        <select name="topicList">
+            <option value="home">Home</option>
+            <option value="opinion">Opinion</option>
+            <option value="world">World</option>
+            <option value="national">National</option>
+            <option value="politics">Politics</option>
+            <option value="upshot">Upshot</option>
+            <option value="nyregion">NY Region</option>
+            <option value="business">Business</option>
+            <option value="technology">Technology</option>
+
+        </select>
+    </div>
+    </header>
+
+    <div class="results flex">
+    <div class="article">
+      <a href="" class="article-link" target='_BLANK'>
+        <article>
+            <div class="excerpt">
+                <p></p>
+               <!--<a class="link" href="#">Read More</a> -->
+        </article>
+      </a>
+    </div>
+    </div>
+
+    <footer class="flex special-flex">
+        <p>&copy Copyright 2016 INSTANEWS</p>
+    </footer>
+
+
+<script src="build/js/main.min.js"></script> 
+</body>
+</html>

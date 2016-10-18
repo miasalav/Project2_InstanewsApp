@@ -1,0 +1,41 @@
+// Base Font
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-weight: 300;
+$base-font-size: 16px;
+$base-font-color: #ffffff;
+$footer-text-color: #c2c2c2;
+$base-background-color: black;
+$break-tablet: 600px;
+$break-desktop: 1000px;
+
+
+body{
+    background-color: black;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-flex
+{
+    display: flex;
+}
+
+.container
+{
+    display: flex;
+}
+
+@media(min-width: $break-desktop) {
+
+    .special-flex
+    {
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+}
