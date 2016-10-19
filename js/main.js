@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-console.log('sup');
 function buildArticle(result){
   
    $(".article").not(':first').remove();
@@ -21,7 +20,7 @@ function buildArticle(result){
         
         $(clone).css("background-image", "url("+ imageUrl + ")"); 
        // $('article').children('img').attr("src", final_image);
-        $(clone).children('article').children('.excerpt').children('p').html(snippet);
+        $(clone).children('.article-link').children('article').children('.excerpt').children('p').html(snippet);
         $(clone).children('.article-link').attr("href", webUrl);
         
         $('.results').append(clone);
@@ -30,7 +29,6 @@ function buildArticle(result){
 
         $('.article').show();
 
-       console.log( $(clone).children('.article-link').attr("href", webUrl));
                     
          }
       
