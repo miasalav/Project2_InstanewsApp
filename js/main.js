@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-console.log('sup');
 function buildArticle(result){
   
    $(".article").not(':first').remove();
